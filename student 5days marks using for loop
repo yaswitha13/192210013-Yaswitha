@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct name
+{
+	 int total,marks,average;
+}s;
+int main()
+{
+	int i;
+	for(i=0;i<5;i++)
+	{
+		printf("enter the marks:",i+1);
+		scanf("%d",&s.marks);
+		s.total=s.total+s.marks;
+		s.average=s.total/5;
+	}
+	printf("total:%d\n",s.total);
+	printf("average:%d",s.average);
+	return 0;
+}
