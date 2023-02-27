@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int i;
+	char s[]="Paruchuri Yaswitha";
+	for(i=0;s[i]!='\0';i++);
+	printf("length of the character:%d",i);
+	return 0;
+}
