@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float length, breadth, Perimeter;
+printf(“Enter the value of length & breadth:”);
+scanf(“%f %f”, & length, &breadth);
+Perimeter=2*(length + breadth);
+printf(“The Perimeter of a rectangle is: %f”, Perimeter)
+return 0;
