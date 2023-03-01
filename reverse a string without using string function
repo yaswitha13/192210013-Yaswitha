@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ char string[20];
+ int i,leng=0;
+ printf("Enter String : ");
+ scanf("%s",string);
+ for(i = 0; string[i]!='\0';i++)
+ leng++;
+ printf("Length of string: %d\n",leng);
+ printf("Reverse string is :");
+ for(i=leng;i>=0;i--)
+ {
+ printf("%c",string[i]);
+ }
+}
