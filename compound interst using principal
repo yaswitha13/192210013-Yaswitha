@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int compound(float,float,float);
+float p,n,r;
+scanf("%f %f %f",&p,&n,&r);
+compound(p,n,r);
+return 0;
+}
+int compound(float p, float n, float r)
+{
+ int i,ci;
+for(i=1;i<=n;i++)
+{
+ci = p * pow ((1 + (r/100)), n); 
+}
+printf("Compounded amount is %d\n\n", ci);
+return 0;
+}
