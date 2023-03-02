@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    char name;
+    FILE*fptr;
+    fptr=fopen("c :\\program.txt","w");
+    if(fptr == NULL)
+    {
+        printf("error!");
+        exit(1);
+    }
+    printf("enter name:");
+    scanf("%c",&name);
+    fprintf(fptr,"%c",name);
+    fclose(fptr);
+    return 0;
+}
